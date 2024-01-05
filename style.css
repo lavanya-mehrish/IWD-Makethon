@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9c2c2; /* Baby pink */
+}
+
+header {
+    background-color: #e05c86; /* Eggplant */
+    padding: 40px;
+    color: white;
+	text-align: center ;
+	
+}
+
+header h1 {
+    margin: 0;
+	text-align: center;
+}
+
+.logo-container img {
+    display: block;
+    margin: 0 auto; /* Center-align the image */
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+	text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+	text-align: center;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+	text-align: right;
+	padding: 10px 15px;
+	border-radius: 15px;
+	display: inline;
+	border: 1px solid #fff;
+
+}
+/* Add this to your existing CSS file or create a new one for dark mode styles */
+.dark-mode body {
+    background-color: #042845;
+    color: #fff;
+}
+
+.dark-mode header {
+    background-color: #3f7da3;
+}
+
+.dark-mode footer {
+    background-color: #287996;
+}
+
+
+.centered {
+    text-align: center;
+}
+
+.article-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #dcdde1; /* Silver chalice */
+    color: #333;
+}
+
+footer {
+    background-color: #e05c86; /* Eggplant */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.secondary {
+    background-color: #dcdde1; /* Silver chalice */
+    color: #333;
+}
+
+.secondary .article-container {
+    background-color: #e05c86; /* Eggplant */
+    color: white;
+}
+
+.secondary .article-container p {
+    color: white;
+}
+
+.secondary .article-container a {
+    color: white;
+}
+
+.secondary .article-container a:hover {
+    color: #f9c2c2; /* Baby pink */
+}
+
+.secondary .social a {
+    color: white;
+    margin-right: 10px;
+}
+
+.secondary .social a:hover {
+    color: #f9c2c2; /* Baby pink */
+}
