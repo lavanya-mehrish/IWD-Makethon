@@ -1,3 +1,4 @@
+/* General Styles for the Body */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,65 +8,81 @@ body {
     background-color: #f9c2c2; /* Baby pink */
 }
 
+/* Styles for the Header */
 header {
     background-color: #e05c86; /* Eggplant */
     padding: 40px;
     color: white;
-	text-align: center ;
-	
+	text-align: center;
 }
 
+/* Styles for Header Heading */
 header h1 {
     margin: 0;
 	text-align: center;
 }
 
+/* Styles for Logo Container */
 .logo-container img {
     display: block;
     margin: 0 auto; /* Center-align the image */
 }
 
+/* Styles for Navigation Menu */
 header nav ul {
     list-style-type: none;
     padding: 0;
-	text-align: center;
+    text-align: center;
 }
 
+/* Styles for Navigation List Items */
 header nav ul li {
     display: inline;
     margin-right: 20px;
-	text-align: center;
+    text-align: center;
 }
 
+/* Styles for Navigation Links */
 header nav ul li a {
     color: white;
     text-decoration: none;
-	text-align: right;
-	padding: 10px 15px;
-	border-radius: 15px;
-	display: inline;
-	border: 1px solid #fff;
+    text-align: right;
+    padding: 10px 15px;
+    border-radius: 15px;
+    display: inline;
+    border: 1px solid #fff;
+    transition: background-color 0.3s, color 0.3s; /* Transition effect for hover */
 
 }
-/* Add this to your existing CSS file or create a new one for dark mode styles */
+
+/* Hover Styles for Navigation Links */
+header nav ul li a:hover {
+    background-color: #fff; /* Change this to the desired hover background color */
+    color: #333; /* Change this to the desired hover text color */
+}
+
+/* Dark Mode Styles for Body */
 .dark-mode body {
     background-color: #042845;
     color: #fff;
 }
 
+/* Dark Mode Styles for Header */
 .dark-mode header {
     background-color: #3f7da3;
 }
 
+/* Dark Mode Styles for Footer */
 .dark-mode footer {
     background-color: #287996;
 }
 
-
+/* Centered Text Styles */
 .centered {
     text-align: center;
 }
 
+/* Styles for Article Containers */
 .article-container {
     margin: 20px;
     padding: 20px;
@@ -73,6 +90,7 @@ header nav ul li a {
     color: #333;
 }
 
+/* Styles for Footer */
 footer {
     background-color: #e05c86; /* Eggplant */
     padding: 20px;
@@ -80,42 +98,61 @@ footer {
     text-align: center;
 }
 
+/* Styles for Footer Paragraphs */
 footer p {
     margin: 0;
 }
 
+/* Wrapper Styles */
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
 }
 
+/* Secondary Section Styles */
 .secondary {
     background-color: #dcdde1; /* Silver chalice */
     color: #333;
 }
 
+/* Article Container Styles in Secondary Section */
 .secondary .article-container {
     background-color: #e05c86; /* Eggplant */
     color: white;
 }
 
+/* Paragraph Styles in Secondary Section */
 .secondary .article-container p {
     color: white;
 }
 
+/* Link Styles in Secondary Section */
 .secondary .article-container a {
     color: white;
 }
 
+/* Hover Styles for Links in Secondary Section */
 .secondary .article-container a:hover {
     color: #f9c2c2; /* Baby pink */
 }
 
+/* Social Media Icon Styles in Secondary Section */
 .secondary .social a {
     color: white;
     margin-right: 10px;
 }
 
+/* Hover Styles for Social Media Icons in Secondary Section */
 .secondary .social a:hover {
-    color: #f9c2c2; /* Baby pink */
+    color: #f9c2c2; /* Baby pink */
+}
+
+/* Styles for Image Container */
+.image-container {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
 }
